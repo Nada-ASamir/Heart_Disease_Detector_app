@@ -1,0 +1,6 @@
+=== Random Forest Classifier ===
+Accuracy: 0.9
+Precision: 0.8461538461538461
+Recall: 0.9166666666666666
+F1-score: 0.8799999999999999
+AUC: 0.9386574074074073
