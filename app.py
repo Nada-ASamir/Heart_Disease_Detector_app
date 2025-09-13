@@ -8,7 +8,7 @@ def load_pipeline(path):
     with open(path, "rb") as f:
         return pickle.load(f)
 
-pipe = load_pipeline("C:/Users/nadaa/OneDrive/Desktop/Heart Disease Project/models/final_model.pkl")
+pipe = load_pipeline("models/final_model.pkl")
 
 
 # UI
@@ -46,3 +46,4 @@ if st.button("🔍 Predict"):
         st.success("✅ No Heart Disease Detected")
     else:
         st.error("⚠️ Heart Disease Detected")
+
